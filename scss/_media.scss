@@ -1,0 +1,113 @@
+@media (max-width:991px){
+
+    html {
+        font-size: 50%;
+    }
+    .header {
+        padding: 2rem;
+    }
+
+    .home {
+        .home-slider {
+            .slide{
+                min-height: 55vh;
+            }
+        }
+    } 
+    
+    .banner-head {
+        padding-top: 2.5rem;
+    
+        h3 {
+            font-size: 4rem;
+        }
+    
+    }
+}
+
+@media (max-width:768px){
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background: $dark;
+        border-bottom: $border;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        &.active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+
+        a {
+            font-size: 2rem;
+            margin: 2rem;
+            display: block;
+        }
+    }
+
+    .header .search-form {
+        width: 100%;
+        top: 100%;
+        border-radius: 0;
+
+        &.active {
+            right: 0;
+        }
+    }
+
+    .home .home-slider .slide {
+        padding-left: 2rem;
+    }
+
+    .home {
+        .home-slider {
+            .slide{
+                min-height: 50vh;
+            }
+        }
+    } 
+    
+    .banner-head {
+        padding-top: 2.5rem;
+    
+        h3 {
+            font-size: 3rem;
+        }
+    
+    }
+}
+
+@media (max-width:450px){
+
+    html {
+        font-size: 42%;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .home {
+        .home-slider {
+            .slide{
+                min-height: 30vh;
+            }
+        }
+    } 
+    
+    .banner-head {
+        padding-top: 2.5rem;
+    
+        h3 {
+            font-size: 2.4rem;
+        }
+    
+    }
+
+    .products .box-container .box {
+        width: 100%;
+    }
+}
