@@ -18,7 +18,7 @@ window.onscroll = () =>{
 }
 
 let filterBtn = document.querySelectorAll('.filter-buttons .buttons');
-let filterItem = document.querySelectorAll('.products .box-container .box');
+let filterItem = document.querySelectorAll('.Paintings .box-container .box');
 
 filterBtn.forEach(button =>{
 

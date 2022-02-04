@@ -25,7 +25,7 @@
     }
 }
 
-@media (max-width:768px){
+@media (max-width:769px){
     #menu-btn {
         display: inline-block;
     }
@@ -78,6 +78,36 @@
         }
     
     }
+
+    .Paintings {
+    
+        .box-container {
+        
+            .box {
+                width: 22rem;
+            }
+        }
+    }
+
+    .Photography {
+    
+        .box-container {
+        
+            .box {
+                width: 18rem;
+            }
+        }
+    }
+
+    .Sculpture {
+    
+        .box-container {
+        
+            .box {
+                width: 32rem;
+            }
+        }
+    }
 }
 
 @media (max-width:450px){
@@ -107,7 +137,16 @@
     
     }
 
-    .products .box-container .box {
+    .Paintings .box-container .box {
         width: 100%;
     }
+
+    .Photography .box-container .box {
+        width: 100%;
+    }
+
+    .Sculpture .box-container .box {
+        width: 100%;
+    }
+
 }
