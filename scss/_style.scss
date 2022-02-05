@@ -523,3 +523,115 @@ section {
         }
     }    
 }
+
+.contact {
+    background-color: #fff;
+
+    .heading {
+
+        color: #000;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .icons-container {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap: 1.5rem;
+
+        .icons {
+            padding: 2rem;
+            border-radius: .5rem;
+            border: $border;
+            box-shadow: $shadow;
+            text-align: center;
+
+            i {
+                font-size: 2.5rem;
+                height: 6rem;
+                width: 6rem;
+                line-height: 6rem;
+                border: $border;
+                @extend %stroke;
+                border-radius: 50%;
+
+            }
+            
+
+            h3 {
+                font-size: 3rem;
+                padding: 1rem 0;
+                color: #000;
+            }
+
+            p {
+                font-size: 2rem;
+                line-height: 2;
+                color: $dark;
+            }
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-top: 2rem;
+
+        form {
+            flex: 1 1 42rem;
+            padding: 2rem;
+            border: $border;
+            box-shadow: $shadow;
+            border-radius: .5rem;
+
+            h3 {
+                font-size: 3rem;
+                padding-bottom: 1rem;
+                color: #000;
+            }
+
+            .inputBox {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                input {
+                    width: 49%;
+                }
+            }
+
+            .inputBox input,
+            textarea {
+                margin: .7rem 0;
+                border: $border;
+                border-radius: .5rem;
+                padding: 1rem 1.2rem;
+                font-size: 1.6rem;
+                color: #000;
+                text-transform: none;
+            }
+
+            textarea {
+                height: 15rem;
+                resize: none;
+                width: 100%;
+            }
+        }
+
+        .map {
+            flex: 1 1 42rem;
+            width: 100%;
+            padding: 2rem;
+            border: $border;
+            box-shadow: $shadow;
+            border-radius: .5rem;
+        }
+    }
+}
+
+
+
+
+

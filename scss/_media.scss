@@ -1,3 +1,11 @@
+@media (max-width:1200px){
+
+    html {
+        font-size: 54%;
+    }
+    
+}
+
 @media (max-width:991px){
 
     html {
@@ -108,6 +116,10 @@
             }
         }
     }
+    .contact .row form .inputBox input {
+        width: 100%;
+    }
+    
 }
 
 @media (max-width:450px){
@@ -137,16 +149,44 @@
     
     }
 
-    .Paintings .box-container .box {
-        width: 100%;
+    .Paintings {
+        
+        .box-container {
+
+            .box {
+                width: 90%;
+            }
+        }
+
+        
     }
 
-    .Photography .box-container .box {
-        width: 100%;
+    .Photography {
+        
+
+        .box-container {
+            
+
+            .box {
+                width: 90%;
+            }
+
+            .box-mg {
+                margin-top: 0rem;
+            } 
+        }
     }
 
     .Sculpture .box-container .box {
-        width: 100%;
+        width: 90%;
+
+    }
+
+    .contact {
+        .row form .inputBox input {
+            width: 100%;
+        }
+        
     }
 
 }
