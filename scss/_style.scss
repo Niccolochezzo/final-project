@@ -525,6 +525,7 @@ section {
 }
 
 .contact {
+    padding-bottom: 6.5rem;
     background-color: #fff;
 
     .heading {
@@ -631,7 +632,156 @@ section {
     }
 }
 
+.blogs {
 
+    .heading {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
 
+    .slide {
+        border: $border;
+        border-radius: .5rem;
+        box-shadow: $shadow; 
+        overflow: hidden;
 
+        .image {
+            height: 25rem;
+            width: 100%;
+            overflow: hidden;
 
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &:hover .image img {
+            transform: scale(1.2);
+        }
+
+        .content {
+
+            padding: 2rem;
+
+            h3 {
+                font-size: 2.2rem;
+                color: #fff;
+            }
+
+            p {
+                font-size: 1.4rem;
+                color: #fff;
+                line-height: 2;
+                padding: 1rem 0;
+            }
+
+            .icons {
+                margin-top: 2.5rem;
+                padding-top: 2rem;
+                border-top: $border;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                a {
+                    font-size: 1.5rem;
+                    color: #fff;
+    
+                    i {
+                        padding-right: .5rem;
+                        color: $red;
+                    }
+    
+                    &:hover {
+                        color: $red;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+.footer{
+    background:$light-bg;
+
+    .box-container{
+        @include grid(25rem);
+
+        .box{
+
+            h3{
+                font-size: 2.2rem;
+                color:$black;
+                padding:1rem 0;
+            }
+
+            p{
+                font-size: 1.5rem;
+                color:$light-color;
+                padding:1rem 0;
+                padding-right: 2rem;
+                line-height: 2;
+            }
+
+            a{
+                display: block;
+                font-size: 1.4rem;
+                color:$light-color;
+                padding:1rem 0;
+
+                i{
+                    padding-right: .5rem;
+                    color:$red;
+                }
+
+                &:hover{
+                    color:$red;
+                }
+
+                &:hover i{
+                    padding-right: 2rem;
+                }
+            }
+
+        }
+    }
+
+    .share{
+        padding-top: 2rem;
+        text-align: center;
+
+        a{
+            font-size: 2rem;
+            height: 5rem;
+            width: 5rem;
+            line-height: 5rem;
+            border-radius: 50%;
+            background:$black;
+            color:#fff;
+            margin:.3rem;
+
+            &:hover{
+                background: $red;
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .credit{
+        margin-top: 2.5rem;
+        padding:1rem;
+        padding-top: 2rem;
+        border-top: $border;
+        text-align: center;
+        color:$light-color;
+        font-size: 2rem;
+
+        span{
+            color:$red;
+        }
+    }
+
+}

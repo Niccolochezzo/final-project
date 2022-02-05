@@ -56,3 +56,29 @@ var swiper = new Swiper(".home-slider", {
     },
     
   });
+
+  var swiper = new Swiper(".blogs-slider", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    loop:true,
+        autoplay: {
+          delay: 9500,
+          disableOnInteraction: false,
+        },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+    }
+    
+  });
