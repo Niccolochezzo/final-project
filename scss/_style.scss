@@ -473,6 +473,35 @@ section {
             border: $border;
             border-radius: .5rem;
 
+            .icons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgba(0, 0, 0, 0.7);
+                height: 35rem;
+                width: 100%;
+                position: absolute;
+                top: 0; left: 0;
+                gap: .5rem;
+                transform: scale(0);
+                z-index: 1;
+
+                a {
+                    font-size: 2rem;
+                    height: 4rem;
+                    width: 4rem;
+                    line-height: 4rem;
+                    text-align: center;
+                    background: rgb(255, 255, 255);
+                    border-radius: .5rem;
+                    @extend %stroke;
+                }
+            }
+
+            &:hover .icons {
+                transform: scale(1);
+            }
+
             .image {
                 height: 35rem;
                 width: 100%;
@@ -706,6 +735,26 @@ section {
 
 .footer{
     background:$light-bg;
+
+    .box{
+        
+        margin-bottom: 2rem;
+
+        h3{
+            font-size: 2.2rem;
+            color:$black;
+            padding:1rem 0;
+        }
+
+        p{
+            font-size: 1.5rem;
+            color:$light-color;
+            padding:1rem 0;
+            padding-right: 2rem;
+            line-height: 2;
+        }
+
+    }
 
     .box-container{
         @include grid(25rem);
