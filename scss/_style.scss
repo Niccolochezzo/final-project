@@ -829,8 +829,14 @@ section {
         font-size: 2rem;
 
         span{
-            color:$red;
+
+            &:hover {
+                color:$red;
+                cursor: pointer;
+            }
         }
+
+        
     }
 
 }

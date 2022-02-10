@@ -977,8 +977,9 @@ section {
   font-size: 2rem;
 }
 
-.footer .credit span {
+.footer .credit span:hover {
   color: #fccf08;
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
