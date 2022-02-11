@@ -150,7 +150,7 @@ section {
     .home-slider {
 
         .slide {
-            min-height: 78vh;
+            min-height: 80vh;
             display: flex;
             align-items: center;
             padding: 2rem;
@@ -178,6 +178,7 @@ section {
                 color: $dark;
                 cursor: pointer;
             }
+            
         }
     }
 
@@ -203,7 +204,7 @@ section {
         }
 
         &:hover img{
-            transform: scale(1.2);
+            transform: scale(1.1);
         }
 
     }
