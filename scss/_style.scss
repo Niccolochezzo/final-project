@@ -819,6 +819,34 @@ section {
                 transform: rotate(360deg);
             }
         }
+
+        .fa-facebook-f {
+
+            &:hover{
+                background: #4267B2;
+            }
+        }
+
+        .fa-twitter {
+
+            &:hover{
+                background: #00acee;
+            }
+        }
+
+        .fa-linkedin {
+
+            &:hover{
+                background: #0077b5;
+            }
+        }
+
+        .fa-instagram {
+
+            &:hover{
+                background:   #FCAF45;
+            }
+        }
     }
 
     .credit{

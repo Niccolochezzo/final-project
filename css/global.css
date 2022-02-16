@@ -967,6 +967,22 @@ section {
           transform: rotate(360deg);
 }
 
+.footer .share .fa-facebook-f:hover {
+  background: #4267B2;
+}
+
+.footer .share .fa-twitter:hover {
+  background: #00acee;
+}
+
+.footer .share .fa-linkedin:hover {
+  background: #0077b5;
+}
+
+.footer .share .fa-instagram:hover {
+  background: #FCAF45;
+}
+
 .footer .credit {
   margin-top: 2.5rem;
   padding: 1rem;
