@@ -71,7 +71,7 @@ a {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 80%;
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
   overflow-x: hidden;
@@ -882,7 +882,7 @@ section {
 }
 
 .footer {
-  background: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .footer .box {

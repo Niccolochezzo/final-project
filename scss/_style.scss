@@ -8,7 +8,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 80%;
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
     overflow-x: hidden;
@@ -609,6 +609,7 @@ section {
         flex-wrap: wrap;
         gap: 1.5rem;
         margin-top: 2rem;
+        
 
         form {
             flex: 1 1 42rem;
@@ -735,7 +736,7 @@ section {
 }
 
 .footer{
-    background:$light-bg;
+    background-color:$light-bg;
 
     .box{
         
