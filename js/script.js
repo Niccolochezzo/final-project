@@ -83,20 +83,3 @@ var swiper = new Swiper(".home-slider", {
     
   });
 
-  let path = document.querySelector ('path')
-  let pathLenght = path.getTotalLength ()
-
-  path.style.strokeDasharray = pathLenght + ' ' + pathLenght;
-
-  path.style.strokeDashoffset = pathLenght;
-
-  window.addEventListener('scroll', () => {
-
-    var scrollPercentage =  (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-
-    var drawLength = pathLenght * scrollPercentage;
-
-    path.style.strokeDashoffset = pathLenght - drawLength
-
-
-  });
