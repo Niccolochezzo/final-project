@@ -129,10 +129,28 @@ body {
   font-size: 1.7rem;
   color: #fff;
   margin: 0 1rem;
+  display: inline-block;
 }
 
 .header .navbar a:hover {
   color: #fccf08;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+.header .navbar a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: .5rem;
+  background: #fccf08;
+  -webkit-transition: width .4s;
+  transition: width .4s;
+  margin-top: .2rem;
+}
+
+.header .navbar a:hover::after {
+  width: 100%;
 }
 
 .header .icons div,
@@ -323,10 +341,26 @@ section {
   font-size: 1.7rem;
   color: #919191;
   cursor: pointer;
+  display: inline-block;
 }
 
 .Paintings .filter-buttons .buttons:hover, .Paintings .filter-buttons .buttons.active {
   color: #fccf08;
+}
+
+.Paintings .filter-buttons .buttons::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: .5rem;
+  background: #fccf08;
+  -webkit-transition: width .4s;
+  transition: width .4s;
+  margin-top: .2rem;
+}
+
+.Paintings .filter-buttons .buttons:hover::after {
+  width: 100%;
 }
 
 .Paintings .box-container {
