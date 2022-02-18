@@ -142,7 +142,7 @@ body {
   content: '';
   display: block;
   width: 0;
-  height: .5rem;
+  height: .3rem;
   background: #fccf08;
   -webkit-transition: width .4s;
   transition: width .4s;
@@ -352,7 +352,7 @@ section {
   content: '';
   display: block;
   width: 0;
-  height: .5rem;
+  height: .3rem;
   background: #fccf08;
   -webkit-transition: width .4s;
   transition: width .4s;
