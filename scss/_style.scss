@@ -166,14 +166,9 @@ section {
     .home-slider {
 
         .slide {
-            min-height: 80vh;
-            display: flex;
-            align-items: center;
-            padding: 2rem;
-            padding-left: 7%;
+            min-height: 78vh;
             background-size: cover !important;
             background-position:center !important;
-
         }
     }
 }
@@ -204,14 +199,12 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding: 5rem 0;
 
     .banner{
         flex:1 1 42rem;
         overflow: hidden;
         height: 35rem;
-        position: relative;
 
         img{
             height: 100%;
@@ -290,7 +283,7 @@ section {
             }
 
             &.active {
-                animation:fadeUp .6s linear;
+                animation:fadeUp .5s linear;
             }
 
             .icons {
@@ -764,6 +757,40 @@ section {
         }
         
     }
+}
+
+.under-blog {
+    background-color:$light-bg;
+    padding: 6rem 9%;
+
+    .box-container{
+        border-top: solid .1rem $light-color;
+        border-bottom: solid .1rem $light-color;
+        display: flex;
+        gap: 2rem;
+
+        .box {
+            padding: 6rem 0;
+            text-align: center;
+            .content {
+                i {
+                    font-size: 3.5rem;
+                    color: rgb(200, 175, 106);
+                    margin-bottom: 1rem;
+                }
+                h3 {
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    line-height: 2rem;
+                    letter-spacing: .1rem;
+                }
+            }
+        }
+    }    
 }
 
 .footer{

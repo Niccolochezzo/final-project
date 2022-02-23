@@ -153,6 +153,34 @@
             
         }
     }
+
+    .under-blog {
+
+        .box-container{
+            flex-direction: column;
+
+            .box {
+                
+                .content {
+                    i {
+                        font-size: 5rem;
+                        color: rgb(200, 175, 106);
+                        margin-bottom: 1rem;
+                    }
+                    h3 {
+                        font-size: 3rem;
+                        margin-bottom: 2rem;
+                    }
+    
+                    p {
+                        font-size: 2rem;
+                        line-height: 2rem;
+                        letter-spacing: .1rem;
+                    }
+                }
+            }
+        }    
+    }
     
 }
 
